@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Sidebar
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.2.1
 // @description  This script hides the sidebar on community.servicenow.com
 // @author       You
 // @match        https://community.servicenow.com/*
@@ -15,7 +15,7 @@
     'use strict';
     var checkExist = setInterval(function() {
         if ($('sp-page-row').length) {
-            console.log("Exists!");
+            console.log("Hiding Sidebar!");
             $($('sp-page-row > .row >.col-md-9')[0]).attr('class','col-md-12');
             $($('sp-page-row > .row >.col-md-3')[0]).attr('class','hide');
             clearInterval(checkExist);
