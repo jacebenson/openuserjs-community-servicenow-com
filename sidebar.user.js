@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Sidebar
 // @namespace    https://github.com/jacebenson/openuserjs-community-servicenow-com/
-// @version      0.2.1
+// @version      0.2.2
 // @description  This script hides the sidebar on community.servicenow.com
 // @author       You
 // @match        https://community.servicenow.com/*
