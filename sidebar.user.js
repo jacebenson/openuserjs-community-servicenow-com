@@ -21,4 +21,5 @@
             clearInterval(checkExist);
         }
     }, 1000); // check every 1s
+    $('#unreplied').click();
 })($);
