@@ -18,6 +18,8 @@
             console.log("Hiding Sidebar!");
             $($('sp-page-row > .row >.col-md-9')[0]).attr('class','col-md-12');
             $($('sp-page-row > .row >.col-md-3')[0]).attr('class','hide');
+            $($('#x1c8e106f535032007a97e192d5dc3432')[0]).attr('class','hide');
+            $($('.cm-homepage-main-container > .container')[0]).attr('class', 'container-fluid');
             clearInterval(checkExist);
         }
     }, 1000); // check every 1s
